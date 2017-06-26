@@ -2,9 +2,8 @@
  document.getElementById('form').onsubmit = function(){
  window.alert(document.getElementById('form').word.value);
  };
-;
 
-for(var i = 1; i <= document.getElementById('form').word.value; i++) {
+for(var i = 1; i <= 100; i++) {
  var li = document.createElement('li');
  if(i % 5 == 0 && i % 3 == 0){
 li.textContent = 'FizzBuzz';
