@@ -9,6 +9,7 @@ for(var i = 1; i <= word; i++) {
 else if(i/5 === 0){
   answer = Buzz;
 }
+ 
  if(i/5 === 0 && i/3 === 0){
   answer = FizzBuzz;
 }
