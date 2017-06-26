@@ -3,7 +3,10 @@
 var answer=0;
 
  document.getElementById('form').onsubmit = function(){
-  
+ window.alert(document.getElementById('form').word.value);
+  return false;
+ };
+
 for(var i = 1; i <= word; i++) {
  if(i/3 === 0){
   answer = 'Fizz';
